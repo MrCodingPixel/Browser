@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  width: 100vw;
+  height: 100vh;
+  overflow-y: hidden;
+}
+.header{
+  display: flex;
+  width: 100%;
+  height: 8vh;
+  padding: 12px 0px;
+  align-items: center;
+  justify-content: space-evenly;
+  border-bottom: 1px solid grey;
+}
+#url{
+  width: 65%;
+  height: 48px;
+  border: 0;
+  background-color: #e0e0ee;
+  border-radius: 16px;
+  font-size: 18px;
+}
+#go{
+  width: 20%;
+  height: 48px;
+  border: none;
+  border-radius: 16px;
+}
+#go:hover{
+  cursor: pointer;
+  background-color: #e0e0ee;
+}
+iframe{
+  height: 92vh;
+  width: 100%;
+}
